@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.souravdutta.dutta.share_location">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Your Location"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Phone Number"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/ph_num"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Receivers Number"
+            android:layout_marginHorizontal="15dp"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your Message"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Type your messgae..."
+            android:layout_marginHorizontal="10dp"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Share"/>
+
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/lng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

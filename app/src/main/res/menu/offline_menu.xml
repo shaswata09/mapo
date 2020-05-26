@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:id="@+id/OFF_app_Sett"
+            android:title="App Settings"
+            android:icon="@drawable/app_settings">
+
+        </item>
+
+        <item android:id="@+id/find_route_google"
+            android:title="Find Route in Google"
+            android:icon="@drawable/ic_map_black_24dp">
+
+        </item>
+
+        <item android:id="@+id/OFF_my_loc"
+            android:title="My Location"
+            android:icon="@drawable/my_loc">
+
+        </item>
+
+        <item android:id="@+id/OFF_share_my_loc"
+            android:title="Share My Location"
+            android:icon="@drawable/ic_share_black_24dp">
+
+        </item>
+
+        <item android:id="@+id/OFF_read_loc"
+            android:title="Read Shared Location"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp">
+
+        </item>
+
+        <item android:id="@+id/OFF_marker"
+            android:title="Add Marker"
+            android:icon="@drawable/marker_icon">
+
+        </item>
+
+        <item android:id="@+id/OFF_share_marker"
+            android:title="Share Marker"
+            android:icon="@drawable/ic_person_pin_black_24dp">
+
+        </item>
+
+        <item android:id="@+id/OFF_about"
+            android:title="About"
+            android:icon="@drawable/about_icon">
+
+        </item>
+
+
+</menu>
